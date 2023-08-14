@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navcontainer {
+    display: flex;
+    background-color: black;
+    position: relative;
+    
+}
+.navcontainer {
+    margin: 0;
+    padding: 10px;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact  li {
+
+    list-style-type: none;
+}
+.contact li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+}
+.socialicon {
+    width: 20%;
+    height: 100%;
+    right: 50px;
+    position: absolute;
+    padding:  0 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialicon li {
+    display: flex;    
+}
+.socialicon li a {
+    font-size: 15px;
+    color: white;
+}
+.navcontainer2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(244, 170, 10, 0.829);
+    position: relative;
+}
+.navlink {
+    display: flex;
+}
+.navlink li {
+    list-style-type: none;
+}
+.navlink li a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+}
+.navlist {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+    margin-left: 650px;
+    text-transform: uppercase;
+}
+.navlist li {
+    list-style-type: none;
+}
+.navlist li a {
+    display: flex;
+    text-decoration: none;
+    
+}
+.navlist li a:hover {
+ color: white;
+}
